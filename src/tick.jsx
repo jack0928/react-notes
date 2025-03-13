@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
 function tick() {
     const element = (
         <div>
@@ -8,7 +10,6 @@ function tick() {
             <h2>지금 시간은 {new Date().toLocaleTimeString()}입니다.</h2>
         </div>
     )
-    const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(element);
 
