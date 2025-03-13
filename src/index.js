@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import PapaJohns from './JSX_exercise/PapaJohns';
+import tick from './tick.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PapaJohns />
+    <tick />
   </React.StrictMode>
 );
 
