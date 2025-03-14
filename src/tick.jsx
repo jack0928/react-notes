@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
 
+// Root DOM 노드 가져오기
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function tick() {
@@ -11,10 +12,12 @@ function tick() {
         </div>
     )
 
+    // Root DOM 노드에 리액트 엘리먼트 렌더링
     root.render(element);
 
 }
 
+// 1초마다 업데이트
 setInterval(tick, 1000);
 
 export default tick; 
